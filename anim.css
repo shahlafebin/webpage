@@ -1,0 +1,67 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    opacity: 50%;
+    padding: 15px 0;
+    background: rgb(64, 2, 70);
+    transition: 0.3s;     }
+    .navbar .navbar-nav li a{
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+    .card-featured {
+        background: -webkit-radial-gradient(top left,circle,#4a42ec 0%,#521d91 100%);
+        background: radial-gradient(circle at top left,#4a42ec 0%,#521d91 100%);
+        background-color: #521d91;
+        box-shadow: 0 48px 48px -32px rgb(23 16 159 / 20%), 0 96px 96px -64px rgb(23 16 159 / 40%);
+        margin-bottom: 64px;
+    }
+    .card {
+        border-radius: 8px;
+        background-color: #fff;
+        padding: 32px;
+        -webkit-transition: 300ms all cubic-bezier(.4,0,.2,1);
+        transition: 300ms all cubic-bezier(.4,0,.2,1);
+        margin-top: 24px;
+        box-shadow: 0 8px 60px 0 rgb(103 151 255 / 11%), 0 12px 90px 0 rgb(103 151 255 / 11%);
+    }
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, .wp-pagenavi a, .wp-pagenavi .current, .wp-pagenavi .extend, .comment-meta span.fn {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    div {
+        display: block;
+    }
+    section {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        position: relative;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    
+    .icon-settings_brightness:before {
+        content: "\e8bd";
+    }
+    
